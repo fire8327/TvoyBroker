@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Видео</title>
+    <title>Курсы валют</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="../Assets/CSS/main.css">
 </head>
@@ -25,8 +25,21 @@
 
     <main class="container max-w-[1280px] mx-auto px-4 flex flex-col gap-20 my-14 pt-24">
         <div class="flex flex-col gap-6">
-            <p class="text-2xl font-Oswald font-semibold">Видео</p>
-            <iframe class="w-full aspect-video rounded-lg shadow-lg" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <p class="text-2xl font-Oswald font-semibold">Курсы валют</p>
+            <p class="tracking-widest font-light">Компания "Брокер" предоставляет актуальную информацию о курсах валют в режиме реального времени. Мы следим за изменениями на валютном рынке и предоставляем данные по основным мировым валютам. Наши курсы обновляются ежеминутно, что позволяет нашим клиентам принимать обоснованные финансовые решения.</p>
+        </div>
+        <div class="flex flex-col gap-6">
+            <p class="text-2xl font-Oswald font-semibold">Калькулятор</p>
+            <div class="flex items-center gap-4 p-4 rounded-xl bg-white shadow-[0px_0px_13px_-7px_black]">
+                <div class="flex flex-col w-1/2">
+                    <p class="font-Oswald font-semibold">USD</p>
+                    <input id="currencyFrom" type="text" class="rounded-xl border border-[#1e86f5] px-4 py-2 w-full focus:outline-none" placeholder="USD">
+                </div>
+                <div class="flex flex-col w-1/2">
+                    <p class="font-Oswald font-semibold">RUB</p>
+                    <input id="currencyTo" type="text" class="rounded-xl border border-[#1e86f5] px-4 py-2 w-full focus:outline-none" placeholder="RUB">
+                </div>
+            </div>
         </div>
     </main>
     
