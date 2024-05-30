@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="Assets/CSS/main.css">
 </head>
 <body class="flex flex-col min-h-screen font-Roboto text-[#292929] text-xl bg-gray-200">
-    <header class="p-4 bg-white">
+    <header class="p-4 bg-white fixed top-0 left-0 w-full border-b border-[#1e86f5]">
         <div class="container max-w-[1280px] mx-auto flex items-center justify-between">            
             <a href="index.html">
                 <img src="Assets/Images/header/logo.png" alt="" class="w-16">
@@ -22,6 +22,88 @@
             </nav>
         </div>
     </header>
+    
+    <main class="container max-w-[1280px] mx-auto px-4 flex flex-col gap-20 my-14 pt-24">
+        <div class="flex flex-col gap-6">
+            <p class="text-2xl font-Oswald font-semibold">О нас</p>
+            <div class="flex items-center gap-6">
+                <img src="Assets/Images/about/main.jpg" alt="" class="w-1/2 rounded-xl shadow-[0px_0px_13px_-7px_black]">
+                <div class="w-1/2 flex flex-col gap-4">
+                    <p class="tracking-widest font-light">
+                        Компания "Брокер" – это ведущий игрок на рынке брокерских услуг, предоставляющий широкий спектр финансовых решений для частных лиц и корпоративных клиентов.
+                        Наша миссия – помочь клиентам достичь финансовых целей через предоставление профессиональных, надежных и инновационных услуг.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col gap-6">
+            <p class="text-2xl font-Oswald font-semibold">Направления деятельности</p>
+            <div class="flex items-center gap-6">
+                <div class="w-1/2 flex flex-col gap-4">
+                    <ul class="list-inside list-disc font-light marker:text-[#1e86f5]">
+                        <li><span class="font-Oswald font-semibold">Акции и облигации:</span> Помощь в покупке и продаже ценных бумаг на мировых фондовых рынках.</li>
+                        <li><span class="font-Oswald font-semibold">Форекс:</span> Торговля валютными парами с использованием передовых торговых платформ.</li>
+                        <li><span class="font-Oswald font-semibold">Сырьевые товары:</span> Инвестиции в сырьевые ресурсы, включая золото, нефть и другие.</li>
+                        <li><span class="font-Oswald font-semibold">Управление активами:</span> Профессиональные услуги по управлению инвестиционными портфелями.</li>
+                        <li><span class="font-Oswald font-semibold">Консультационные услуги:</span> Персональные консультации и стратегическое планирование для частных и корпоративных клиентов.</li>
+                    </ul>
+                </div>
+                <img src="Assets/Images/about/directions.jpg" alt="" class="w-1/2 rounded-xl shadow-[0px_0px_13px_-7px_black]">
+            </div>
+        </div>
+        <div class="flex flex-col gap-6">
+            <p class="text-2xl font-Oswald font-semibold">Почему выбирают нас?</p>
+            <div class="grid grid-cols-3 gap-6">
+                <div class="flex flex-col gap-4 p-4 rounded-xl bg-white shadow-[0px_0px_13px_-7px_black]">
+                    <div class="flex gap-4 items-center">
+                        <img src="Assets/Images/about/whyus1.png" alt="" class="w-10 h-10">
+                        <p class="font-Oswald font-semibold">Индивидуальный подход</p>
+                    </div>
+                    <p>Каждый клиент для нас уникален, и мы стремимся предоставить ему наиболее подходящие финансовые решения.</p>
+                </div>
+                <div class="flex flex-col gap-4 p-4 rounded-xl bg-white shadow-[0px_0px_13px_-7px_black]">
+                    <div class="flex gap-4 items-center">
+                        <img src="Assets/Images/about/whyus2.png" alt="" class="w-10 h-10">
+                        <p class="font-Oswald font-semibold">Прозрачность и надежность</p>
+                    </div>
+                    <p>Наши услуги соответствуют самым высоким стандартам прозрачности и надежности.</p>
+                </div>
+                <div class="flex flex-col gap-4 p-4 rounded-xl bg-white shadow-[0px_0px_13px_-7px_black]">
+                    <div class="flex gap-4 items-center">
+                        <img src="Assets/Images/about/whyus3.png" alt="" class="w-10 h-10">
+                        <p class="font-Oswald font-semibold">Современные технологии</p>
+                    </div>
+                    <p>Использование передовых технологий и инновационных решений для обеспечения удобства и эффективности работы.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col gap-6">
+            <p class="text-2xl font-Oswald font-semibold">Последние новости</p>
+            <div class="grid grid-cols-4 gap-6">
+                <div class="flex flex-col gap-4 p-4 rounded-xl bg-white shadow-[0px_0px_13px_-7px_black]">
+                    <p class="font-Oswald font-semibold">"Брокер" запускает новую платформу для торговли криптовалютами</p>
+                    <p class="font-light tracking-widest">Компания "Брокер" объявляет о запуске новой платформы для торговли криптовалютами.</p>
+                    <p class="text-gray-400 self-end text-base">30.05.2024</p>
+                </div>   
+                <div class="flex flex-col gap-4 p-4 rounded-xl bg-white shadow-[0px_0px_13px_-7px_black]">
+                    <p class="font-Oswald font-semibold">"Брокер" открывает новый офис в Сингапуре</p>
+                    <p class="font-light tracking-widest">"Брокер" расширяет своё присутствие в Азии, открыв новый офис в Сингапуре.</p>
+                    <p class="text-gray-400 self-end text-base">25.05.2024</p>
+                </div>   
+                <div class="flex flex-col gap-4 p-4 rounded-xl bg-white shadow-[0px_0px_13px_-7px_black]">
+                    <p class="font-Oswald font-semibold">"Брокер" получила награду за инновации в финансовых технологиях</p>
+                    <p class="font-light tracking-widest">Компания "Брокер" была удостоена награды за инновации в финансовых технологиях.</p>
+                    <p class="text-gray-400 self-end text-base">20.05.2024</p>
+                </div>   
+                <div class="flex flex-col gap-4 p-4 rounded-xl bg-white shadow-[0px_0px_13px_-7px_black]">
+                    <p class="font-Oswald font-semibold">"Брокер" запускает новую услугу управления активами.</p>
+                    <p class="font-light tracking-widest">Компания "Брокер" объявляет о запуске новой платформы для торговли криптовалютами.</p>
+                    <p class="text-gray-400 self-end text-base">15.05.2024</p>
+                </div>   
+            </div>
+            <a href="Pages/news.html" class="px-4 py-2 rounded-xl border border-[#1e86f5] bg-[#1e86f5] text-white transition-all duration-300 hover:text-[#1e86f5] hover:bg-transparent self-end">Просмотреть все новости</a>
+        </div>
+    </main>
     
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="Assets/JS/main.js"></script>
