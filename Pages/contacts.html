@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../Assets/CSS/main.css">
+</head>
+<body class="flex flex-col min-h-screen font-Roboto text-[#292929] text-xl bg-gray-200">
+    <header class="p-4 bg-white fixed top-0 left-0 w-full border-b border-[#1e86f5]">
+        <div class="container max-w-[1280px] mx-auto flex items-center justify-between">            
+            <a href="../index.html">
+                <img src="../Assets/Images/header/logo.png" alt="" class="w-16">
+            </a>   
+            <nav class="flex items-center gap-6">
+                <a href="../index.html" class="flex flex-col after:w-0 after:h-px after:bg-[#292929] after:transition-all after:duration-300 hover:after:w-full">О нас</a>
+                <a href="news.html" class="flex flex-col after:w-0 after:h-px after:bg-[#292929] after:transition-all after:duration-300 hover:after:w-full">Новости</a>
+                <a href="rates.html" class="flex flex-col after:w-0 after:h-px after:bg-[#292929] after:transition-all after:duration-300 hover:after:w-full">Курс валют</a>
+                <a href="contacts.html" class="flex flex-col after:w-0 after:h-px after:bg-[#292929] after:transition-all after:duration-300 hover:after:w-full">Контакты</a>
+                <a href="video.html" class="flex flex-col after:w-0 after:h-px after:bg-[#292929] after:transition-all after:duration-300 hover:after:w-full">Видео</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container max-w-[1280px] mx-auto px-4 flex flex-col gap-20 my-14 pt-24">
+        <div class="flex flex-col gap-6">
+            <p class="text-2xl font-Oswald font-semibold">Контактные данные</p>
+            <p class="tracking-widest font-light">Мы всегда рады помочь вам с любыми вопросами и предоставить необходимую информацию. Обращайтесь к нам по любому из указанных контактов, и наши специалисты оперативно предоставят вам всю необходимую помощь.</p>
+            <div class="grid grid-cols-4 gap-6 font-Oswald">
+                <a class="transition-all duration-300 hover:text-[#1e86f5]" href="tel:8 800 555-35-35">8 800 555-35-35</a>
+                <a class="transition-all duration-300 hover:text-[#1e86f5]" href="mailto:example@gmail.com">example@gmail.com</a>
+                <p>Пн-Пт 10:00-18:00</p>
+                <p>ул. Пушкина, д. Колотушкина</p>
+            </div>
+            <iframe class="rounded-xl border border-gray-200 shadow-[0px_0px_13px_-7px_black] h-[400px] w-full" src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab5b71122d59bf321fa1fb00171146b95ba02bcfc87108b9fa87ff29b94af771d&amp;source=constructor" frameborder="0"></iframe>
+        </div>
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="../Assets/JS/main.js"></script>
+</body>
+</html>
