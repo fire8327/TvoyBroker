@@ -9,3 +9,8 @@
     font-family: "Roboto", sans-serif;
     font-style: normal;
 }
+
+.main-bg{
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+    background: conic-gradient(from 160.4deg at 10.25% 32.45%, #dfeeff 0deg, #d8ebcf 31.88deg, #64a4ee 97.5deg, #e4eae1 159.34deg, #fedb31 255deg, #e4eae1 294.38deg, #e5f4e5 337.5deg, #dfeeff 360deg);
+}
